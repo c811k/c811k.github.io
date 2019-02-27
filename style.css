@@ -12,14 +12,33 @@ nav {
     
 }
 
-#projects {
-    padding: 5em 0;
+#linkedin {
+    background: rgba(204, 231, 255, 0.2);
+    font-size: 30px;
 }
 
-#contact {
-    padding: 5em 0;
+#github {
+    background: rgba(204, 231, 255, 0.2);
+    font-size: 30px;
+}
+
+#email {
+    background: rgba(204, 231, 255, 0.2);
+    font-size: 30px;
 }
 
 #about {
-    padding: 5em 0;
+    padding: 7.5em 0;
+    height: 100vh;
 }
+
+#projects {
+    padding: 7.5em 0;
+    height: 100vh;
+}
+
+#contact {
+    padding: 7.5em 0;
+    height: 100vh;
+}
+
