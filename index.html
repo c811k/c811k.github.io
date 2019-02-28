@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-
     <title>Caleb Kang</title>
 </head>
 <body>
     <div class="container" id="about">
         <div class="row">
             <div class="col-md-12 text-center">
-                <div class="picture center">
-                    <img src="https://cdn-images-1.medium.com/max/1200/1*MccriYX-ciBniUzRKAUsAw.png" height="200" width="200" alt="profile" />
+                <div>
+                    <div class="name">CALEB KANG</div>
+                    <!-- <img src="https://cdn-images-1.medium.com/max/1200/1*MccriYX-ciBniUzRKAUsAw.png" height="200" width="200" alt="profile" /> -->
                     <p class="center mt-5">
-                        <a href="https://www.github.com/c811k" class="text-secondary"><i class="fab fa-github mr-3 border border-light rounded-circle p-2 shadow-sm" id="github"></i></a>
-                        <a href="https://www.linkedin.com/in/calebkang" class="text-secondary"><i class="fab fa-linkedin-in mr-3 border border-light rounded-circle p-2 shadow-sm" id="linkedin"></i></a>
-                        <a href="mailto:bhk811@gmail.com" class="text-secondary"><i class="far fa-envelope-open border border-light rounded-circle p-2 shadow-sm" id="email"></i></a>
+                        <a href="https://www.github.com/c811k" class="text-light"><i class="fab fa-github mr-3 border border-0 rounded-circle p-2 shadow-sm bg-dark" id="github"></i></a>
+                        <a href="https://www.linkedin.com/in/calebkang" class="text-light"><i class="fab fa-linkedin-in mr-3 border border-0 rounded-circle p-2 shadow-sm bg-dark" id="linkedin"></i></a>
+                        <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope-open border border-0 rounded-circle p-2 shadow-sm bg-dark" id="email"></i></a>
                     </p>
                 </div>
                 <blockquote class="blockquote mt-5">
-                    Full-Stack Developer with a passion for integrating technologies to solve problems and improve upon existing methods. Enjoys exploring new ideas to provide innovative end-user experiences. Always looking for improvement and works well when both collaboratively and independently.
+                    I'm a Full-Stack Developer with a passion for integrating technologies to solve problems and enhance existing methods. Enjoys exploring new ideas to allow for innovative end-user experiences. Always striving for improvement and works well both collaboratively and independently.
                 </blockquote>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-12 text-center">
-                <a href="#projects" class="btn btn-outline-secondary btn-lg rounded-0 shadow-sm">VIEW MY PROJECTS</a>
+        <div class="row mt-5 pt-5">
+            <div class="col-md-12 text-center mt-5 pt-5">
+                <a href="#projects" class="btn btn-light bg-white border-0 rounded-circle" id="start"><i class="fas fa-chevron-down"></i></a>
             </div>
         </div>
     </div>
@@ -39,13 +39,13 @@
         <a class="navbar-brand" href="#">C A L E B K A N G</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">{ ABOUT }<span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#about">{ ABOUT }</a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="#projects">{ PROJECTS }</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#contact">{ CONTACT }</a>
                 </li>
             </ul>
@@ -54,7 +54,7 @@
 
     <div class="container">
         <div class="row" id="projects">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center mb-5">
                 <h1>{ PROJECTS }</h1>
                 __________________
             </div>
@@ -62,54 +62,38 @@
             <div class="col-md-4">
                 <div class="card shadow-sm bg-light">
                     <div class="text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1461218821725-ec98ac649fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" height="200" width="300" />
+                        <img src="https://images.unsplash.com/photo-1461218821725-ec98ac649fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" height="375" width="300" />
                     </div>
                     <div class="card-body">
-                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="collapse" data-target="#code-racer" aria-expanded="false" aria-controls="code-racer">
+                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="modal" data-target="#code-racer" aria-expanded="false" aria-controls="code-racer">
                             CODE RACER
                         </button></p>
-                        <div class="collapse" id="code-racer">
-                            <div class="card card-body border-0">
-                                <p class="text-right">FEB. 2019</p>
-                                <p>Code Racer is a MERN (Mongo, Express, React, Node) stack application created for developers and non-developers alike – a fun typing game that allows people to practice typing in various coding languages (JavaScript, PHP, and Python) and compete with others for the fastest time.</p>
-                                <p>Technologies: 
-                                <span class="badge badge-secondary">JavaScript</span>
-                                <span class="badge badge-secondary">React.js</span>
-                                <span class="badge badge-secondary">Express.js</span>
-                                <span class="badge badge-secondary">MongoDB</span>
-                                <span class="badge badge-secondary">Node.js</span></p>
-                                <a class="btn btn-info rounded-0 shadow-sm" href="https://coderacer-app.herokuapp.com/">See the Project</a>
-                            </div>
-                        </div>                                
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow-sm bg-light">
-                    <div class="text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1536410455700-9f81e0f77d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" height="200" width="300" />
-                    </div>
-                    <div class="card-body">
-                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="collapse" data-target="#munchies" aria-expanded="false" aria-controls="munchies">
-                            MUNCHIES MAP
-                        </button></p>
-                        <div class="collapse" id="munchies">
-                            <div class="card card-body border-0">
-                                <p class="text-right">JAN. 2019</p>
-                                <p>Munchies Map is a web application created for both street food vendors and street food cravers. It allows vendors to update their current status, location, and menu, while also allowing customers to locate them using a customized map.</p>
-                                <p>Specific contribution(s): Google Map API integration, back-end routes and database structure, and development & design on front-end.</p>
-                                <p>Technologies: 
-                                <span class="badge badge-secondary">HTML</span>
-                                <span class="badge badge-secondary">Bootstrap</span>
-                                <span class="badge badge-secondary">Node.js</span>
-                                <span class="badge badge-secondary">APIs</span>
-                                <span class="badge badge-secondary">AJAX</span>
-                                <span class="badge badge-secondary">JavaScript</span>
-                                <span class="badge badge-secondary">Express.js</span>
-                                <span class="badge badge-secondary">MySQL</span>
-                                <span class="badge badge-secondary">Squelize</span></p>
-                                <a class="btn btn-info rounded-0 shadow-sm" href="https://munchiesmap.herokuapp.com/">See the Project</a>
+                        <div class="modal fade" id="code-racer" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">CODE RACER</h4>
+                                        <button type="button" class="close border-0" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card card-body border-0">
+                                            <div class="text-center">
+                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1461218821725-ec98ac649fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" />
+                                            </div>
+                                            <p class="text-right"><small>Feb. 2019</small></p>
+                                            <p>Code Racer is a MERN (Mongo, Express, React, Node) stack application created for developers and non-developers alike – a fun typing game that allows people to practice typing in various coding languages (JavaScript, PHP, and Python) and compete with others for the fastest time.</p>
+                                            <p>Technologies: 
+                                            <span class="badge badge-secondary">JavaScript</span>
+                                            <span class="badge badge-secondary">React.js</span>
+                                            <span class="badge badge-secondary">Express.js</span>
+                                            <span class="badge badge-secondary">MongoDB</span>
+                                            <span class="badge badge-secondary">Node.js</span></p>
+                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://coderacer-app.herokuapp.com/" target="_blank">See the Project</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -119,12 +103,87 @@
             <div class="col-md-4">
                 <div class="card shadow-sm bg-light">
                     <div class="text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1536750559184-ab5c4f7edf08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="200" width="300" />
+                        <img src="https://images.unsplash.com/photo-1536410455700-9f81e0f77d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" height="375" width="300" />
                     </div>
                     <div class="card-body">
-                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="collapse" data-target="#eat-fit" aria-expanded="false" aria-controls="eat-fit">
+                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="modal" data-target="#munchies" aria-expanded="false" aria-controls="munchies">
+                            MUNCHIES MAP
+                        </button></p>
+                        <div class="modal fade" id="munchies" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">MUNCHIES MAP</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card card-body border-0">
+                                            <div class="text-center">
+                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1536410455700-9f81e0f77d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" />
+                                            </div>
+                                            <p class="text-right"><small>Jan. 2019</small></p>
+                                            <p>Munchies Map is a web application created for both street food vendors and street food cravers. It allows vendors to update their current status, location, and menu, while also allowing customers to locate them using a customized map.</p>
+                                            <p>Specific contribution(s): Google Map API integration, back-end routes and database structure, and development & design on front-end.</p>
+                                            <p>Technologies: 
+                                            <span class="badge badge-secondary">HTML</span>
+                                            <span class="badge badge-secondary">Bootstrap</span>
+                                            <span class="badge badge-secondary">Node.js</span>
+                                            <span class="badge badge-secondary">APIs</span>
+                                            <span class="badge badge-secondary">AJAX</span>
+                                            <span class="badge badge-secondary">JavaScript</span>
+                                            <span class="badge badge-secondary">Express.js</span>
+                                            <span class="badge badge-secondary">MySQL</span>
+                                            <span class="badge badge-secondary">Squelize</span></p>
+                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://munchiesmap.herokuapp.com/" target="_blank">See the Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm bg-light">
+                    <div class="text-center pt-4">
+                        <img src="https://images.unsplash.com/photo-1536750559184-ab5c4f7edf08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="375" width="300" />
+                    </div>
+                    <div class="card-body">
+                        <p><button class="btn btn-outline-secondary btn-block rounded-0 shadow-sm" type="button" data-toggle="modal" data-target="#eat-fit" aria-expanded="false" aria-controls="eat-fit">
                             EAT FIT
                         </button></p>
+                        <div class="modal fade" id="eat-fit" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">EAT FIT</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card card-body border-0">
+                                            <div class="text-center">
+                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1536750559184-ab5c4f7edf08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+                                            </div>
+                                            <p class="text-right"><small>Dec. 2018</small></p>
+                                            <p>Eat Fit is a web application that helps users to schedule and manage weekly meal plans with workouts according to their daily intake calorie calculation.</p>
+                                            <p>Specific contribution(s): Integration of two APIs to provide data to the users.</p>
+                                            <p>Technologies: 
+                                            <span class="badge badge-secondary">HTML</span>
+                                            <span class="badge badge-secondary">JavaScript</span>
+                                            <span class="badge badge-secondary">Bootstrap</span>
+                                            <span class="badge badge-secondary">AJAX</span>
+                                            <span class="badge badge-secondary">APIs</span></p>
+                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://c811k.github.io/Eat-Fit/" target="_blank">See the Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="collapse" id="eat-fit">
                             <div class="card card-body border-0">
                                 <p class="text-right">DEC. 2018</p>
@@ -170,10 +229,9 @@
         <a href="https://www.linkedin.com/in/calebkang" class="text-info"><i class="fab fa-linkedin-in ml-1"></i></a>
         <a href="mailto:bhk811@gmail.com" class="text-danger"><i class="far fa-envelope-open ml-1"></i></a>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
     <script src="index.js" type="text/javascript"></script>
 
 </body>
