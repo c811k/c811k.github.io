@@ -11,10 +11,6 @@ body {
     font-size: 100px;
 }
 
-.active {
-    color: black;
-}
-
 #start {
     font-size: 30px;
 }
@@ -38,3 +34,6 @@ body {
     height: 100vh;
 }
 
+.close:focus {
+    outline: none;
+}
