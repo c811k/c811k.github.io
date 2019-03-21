@@ -19,6 +19,10 @@ body {
     font-size: 30px;
 }
 
+#linkedin, #github, #email:hover {
+    background-color: #37474f;
+}
+
 #about {
     padding: 7.5em 0;
     height: 100vh;
