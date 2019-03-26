@@ -33,11 +33,6 @@ body {
     height: 100vh;
 }
 
-#contact {
-    padding: 7.5em 0;
-    height: 100vh;
-}
-
 .close:focus {
     outline: none;
 }
