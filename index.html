@@ -34,61 +34,66 @@
         </div>
     </div>
 
-    <nav class="nav navbar-expand-lg navbar-light bg-light sticky-top p-3 shadow-sm">
+    <nav class="nav navbar-expand-lg navbar-dark bg-dark sticky-top p-3 shadow-sm">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#about">C A L E B K A N G</a>
+            <a class="navbar-brand text-white font-weight-bold" href="#about" id="name">CALEB KANG</a>
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">{ ABOUT }<span class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#about">{ ABOUT }<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">{ PROJECTS }</a>
+                    <a class="nav-link text-white" href="#projects">{ PROJECTS }</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="mailto:bhk811@gmail.com">{ CONTACT }</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row" id="projects">
-            <div class="col-md-12 text-center mb-5">
+    <div class="container" id="projects">
+        <div class="row mb-5">
+            <div class="col-md-12 text-center">
                 <h1>{ PROJECTS }</h1>
-                __________________
             </div>
+        </div>
 
+        <div class="row mb-4">
             <div class="col-md-4">
-                <div class="card shadow-sm bg-light">
-                    <div class="image text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1461218821725-ec98ac649fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" height="300" width="300" />
-                        <button class="middle btn btn-dark" data-toggle="modal" data-target="#code-racer" aria-expanded="false" aria-control="code-racer">LEARN MORE</button>
+                <div class="card bg-dark shadow-sm p-2">
+                    <div class="image">
+                        <img class="img-fluid" src="../c811k.github.io/assets/images/bridgebasketball.gif" />
+                        <div class="middle">
+                            <h5 class="text-light"><br>CHECK BALL<br>GAME TIME.</h5>
+                            <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#nlvcbasketball" aria-expanded="false" aria-control="nlvcbasketball">LEARN MORE</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="mb-5 text-center" id="projectbtn">CODE RACER</p>
-                        <div class="modal fade" id="code-racer" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content border-0">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">CODE RACER</h5>
-                                        <button type="button" class="close text-info" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="card card-body border-0">
-                                            <div class="text-center">
-                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1461218821725-ec98ac649fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" />
-                                            </div>
-                                            <p class="text-right"><small>Feb. 2019</small></p>
-                                            <p>Code Racer is a MERN (Mongo, Express, React, Node) stack application created for developers and non-developers alike – a fun typing game that allows people to practice typing in JavaScript and compete with others for the fastest time.</p>
-                                            <p>Technologies: 
-                                            <span class="badge badge-secondary">JavaScript</span>
-                                            <span class="badge badge-secondary">React.js</span>
-                                            <span class="badge badge-secondary">Express.js</span>
-                                            <span class="badge badge-secondary">MongoDB</span>
-                                            <span class="badge badge-secondary">Node.js</span></p>
-                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://coderacer-app.herokuapp.com/" target="_blank">See the Project</a>
+                    <h6 class="mt-3 text-center text-white">Bridge Basketball</h6>
+                    <div class="modal fade" id="nlvcbasketball" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bridge Basketball</h5>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card card-body border-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid" src="../c811k.github.io/assets/images/bridgebasketball.gif" />
                                         </div>
+                                        <p class="text-right"><small>May 2019</small></p>
+                                        <p>Bridge Basketball is a website created for players in Bridge Basketball League. Players can check their stats, schedule, team standing, and watch their games.</p>
+                                        <p>Technologies: 
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">React.js</span>
+                                        <span class="badge badge-secondary">Express.js</span>
+                                        <span class="badge badge-secondary">Node.js</span>
+                                        <span class="badge badge-secondary">Bootstrap</span></p>
+                                        <a class="btn btn-dark shadow-sm" href="https://basketball.nlvcbridge.com/" target="_blank">See the Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -98,42 +103,35 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card shadow-sm bg-light">
-                    <div class="image text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1536410455700-9f81e0f77d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" height="300" width="300" />
-                        <button class="middle btn btn-dark" data-toggle="modal" data-target="#munchies" aria-expanded="false" aria-control="munchies">LEARN MORE</button>
+                <div class="card shadow-sm p-2">
+                    <div class="image">
+                        <img class="img-fluid" src="../c811k.github.io/assets/images/nlvcvbridge.gif" />
+                        <div class="middle">
+                            <h5><br>WELCOME.</h5>
+                            <button class="btn btn-sm btn-dark" data-toggle="modal" data-target="#nlvcbridge" aria-expanded="false" aria-control="nlvcbridge">LEARN MORE</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="mb-5 text-center" id="projectbtn">MUNCHIES MAP</p>
-                        <div class="modal fade" id="munchies" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content border-0">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">MUNCHIES MAP</h5>
-                                        <button type="button" class="close text-info" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="card card-body border-0">
-                                            <div class="text-center">
-                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1536410455700-9f81e0f77d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" />
-                                            </div>
-                                            <p class="text-right"><small>Jan. 2019</small></p>
-                                            <p>Munchies Map is a web application created for both street food vendors and street food cravers. It allows vendors to update their current status, location, and menu, while also allowing customers to locate them using a customized map.</p>
-                                            <p>Specific contribution(s): Google Map API integration, back-end routes and database structure, and development & design on front-end.</p>
-                                            <p>Technologies: 
-                                            <span class="badge badge-secondary">HTML</span>
-                                            <span class="badge badge-secondary">Bootstrap</span>
-                                            <span class="badge badge-secondary">Node.js</span>
-                                            <span class="badge badge-secondary">API</span>
-                                            <span class="badge badge-secondary">AJAX</span>
-                                            <span class="badge badge-secondary">JavaScript</span>
-                                            <span class="badge badge-secondary">Express.js</span>
-                                            <span class="badge badge-secondary">MySQL</span>
-                                            <span class="badge badge-secondary">Squelize</span></p>
-                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://munchiesmap.herokuapp.com/" target="_blank">See the Project</a>
+                    <h6 class="mt-3 text-center">NLVC: THE BRIDGE</h6>
+                    <div class="modal fade" id="nlvcbridge" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">NLVC: THE BRIDGE</h5>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card card-body border-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid" src="../c811k.github.io/assets/images/nlvcvbridge.gif" />
                                         </div>
+                                        <p class="text-right"><small>April 2019</small></p>
+                                        <p>NLVC: THE BRIDGE is a website developed for English Ministry at New Life Vision Church. It allows users to get directions, ministry updates, and also allows user to listen to weekly sermons.</p>
+                                        <p>Technologies: 
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">Bootstrap</span></p>
+                                        <a class="btn btn-dark shadow-sm" href="https://www.nlvcbridge.com/" target="_blank">See the Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,66 +141,139 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card shadow-sm bg-light">
-                    <div class="image text-center pt-4">
-                        <img src="https://images.unsplash.com/photo-1536750559184-ab5c4f7edf08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="300" width="300" />
-                        <button class="middle btn btn-dark" data-toggle="modal" data-target="#eat-fit" aria-expanded="false" aria-control="eat-fit">LEARN MORE</button>
+                <div class="card bg-dark shadow-sm p-2">
+                    <div class="image">
+                        <img class="img-fluid" src="../c811k.github.io/assets/images/coderacer.gif" />
+                        <div class="middle">
+                            <h5 class="text-light">READY?<br>SET.<br>GO!</h5>
+                            <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#code-racer" aria-expanded="false" aria-control="code-racer">LEARN MORE</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="mb-5 text-center" id="projectbtn">EAT FIT</p>
-                        <div class="modal fade" id="eat-fit" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content border-0">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">EAT FIT</h5>
-                                        <button type="button" class="close text-info" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="card card-body border-0">
-                                            <div class="text-center">
-                                                <img class="img-fluid" src="https://images.unsplash.com/photo-1536750559184-ab5c4f7edf08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
-                                            </div>
-                                            <p class="text-right"><small>Dec. 2018</small></p>
-                                            <p>Eat Fit is a web application that helps users to schedule and manage weekly meal plans with workouts according to their daily intake calorie calculation.</p>
-                                            <p>Specific contribution(s): Integration of two APIs to provide data to the users.</p>
-                                            <p>Technologies: 
-                                            <span class="badge badge-secondary">HTML</span>
-                                            <span class="badge badge-secondary">JavaScript</span>
-                                            <span class="badge badge-secondary">Bootstrap</span>
-                                            <span class="badge badge-secondary">AJAX</span>
-                                            <span class="badge badge-secondary">API</span></p>
-                                            <a class="btn btn-info rounded-0 shadow-sm" href="https://c811k.github.io/Eat-Fit/" target="_blank">See the Project</a>
+                    <h6 class="mt-3 text-center text-white">Code Racer</h6>
+                    <div class="modal fade" id="code-racer" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Code Racer</h5>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card card-body border-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid" src="../c811k.github.io/assets/images/coderacer.gif" />
                                         </div>
+                                        <p class="text-right"><small>February 2019</small></p>
+                                        <p>Code Racer is a MERN (Mongo, Express, React, Node) stack application created for developers and non-developers alike – a fun typing game that allows people to practice typing in JavaScript and compete with others for the fastest time.</p>
+                                        <p>Technologies: 
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">React.js</span>
+                                        <span class="badge badge-secondary">Express.js</span>
+                                        <span class="badge badge-secondary">MongoDB</span>
+                                        <span class="badge badge-secondary">Node.js</span></p>
+                                        <a class="btn btn-dark shadow-sm" href="https://coderacer-app.herokuapp.com" target="_blank">See the Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="collapse" id="eat-fit">
-                            <div class="card card-body border-0">
-                                <p class="text-right">DEC. 2018</p>
-                                <p>Eat Fit is a web application that helps users to schedule and manage weekly meal plans with workouts according to their daily intake calorie calculation.</p>
-                                <p>Specific contribution(s): Integration of two APIs to provide data to the users.</p>
-                                <p>Technologies: 
-                                <span class="badge badge-secondary">HTML</span>
-                                <span class="badge badge-secondary">JavaScript</span>
-                                <span class="badge badge-secondary">Bootstrap</span>
-                                <span class="badge badge-secondary">AJAX</span>
-                                <span class="badge badge-secondary">APIs</span></p>
-                                <a class="btn btn-info rounded-0 shadow-sm" href="https://c811k.github.io/Eat-Fit/">See the Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm p-2">
+                    <div class="image">
+                        <img class="img-fluid" src="../c811k.github.io/assets/images/munchies.gif" />
+                        <div class="middle">
+                            <h5><br>HUNGRY?</h5>
+                            <button class="btn btn-sm btn-dark" data-toggle="modal" data-target="#munchies" aria-expanded="false" aria-control="munchies">LEARN MORE</button>
+                        </div>
+                    </div>
+                    <h6 class="mt-3 text-center">Munchies Map</h6>
+                    <div class="modal fade" id="munchies" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Munchies Map</h5>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card card-body border-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid" src="../c811k.github.io/assets/images/munchies.gif" />
+                                        </div>
+                                        <p class="text-right"><small>January 2019</small></p>
+                                        <p>Munchies Map is a web based application created for both street food vendors and street food cravers. It allows vendors to update their current status, location, and menu, while also allowing customers to locate them using a customized map.</p>
+                                        <p>Specific contribution(s): Google Map API integration, back-end routes and database structure, and development & design on front-end.</p>
+                                        <p>Technologies: 
+                                        <span class="badge badge-secondary">Bootstrap</span>
+                                        <span class="badge badge-secondary">Node.js</span>
+                                        <span class="badge badge-secondary">API</span>
+                                        <span class="badge badge-secondary">AJAX</span>
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">Express.js</span>
+                                        <span class="badge badge-secondary">MySQL</span>
+                                        <span class="badge badge-secondary">Squelize</span></p>
+                                        <a class="btn btn-dark shadow-sm" href="https://munchiesmap.herokuapp.com" target="_blank">See the Project</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark shadow-sm p-2">
+                    <div class="image">
+                        <img class="img-fluid" src="../c811k.github.io/assets/images/eat-fit.gif" />
+                        <div class="middle">
+                            <h5 class="text-light">GET FIT.</h5>
+                            <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#eat-fit" aria-expanded="false" aria-control="eat-fit">LEARN MORE</button>
+                        </div>
+                    </div>
+                    <h6 class="mt-3 text-center text-white">Eat Fit</h6>
+                    <div class="modal fade" id="eat-fit" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content border-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Eat Fit</h5>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card card-body border-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid" src="../c811k.github.io/assets/images/eat-fit.gif" />
+                                        </div>
+                                        <p class="text-right"><small>December 2018</small></p>
+                                        <p>Eat Fit is a web based application that helps users to schedule and manage weekly meal plans with workouts according to their daily intake calorie calculation.</p>
+                                        <p>Specific contribution(s): Integration of two APIs to provide data to the users.</p>
+                                        <p>Technologies: 
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">Bootstrap</span>
+                                        <span class="badge badge-secondary">AJAX</span>
+                                        <span class="badge badge-secondary">API</span></p>
+                                        <a class="btn btn-dark shadow-sm" href="https://c811k.github.io/Eat-Fit/" target="_blank">See the Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="text-center mt-auto py-3 bg-light">
-        <strong><span class="text-muted">C A L E B K A N G</strong></span>
-        <a href="https://www.github.com/c811k" class="text-warning"><i class="fab fa-github ml-2"></i></a>
-        <a href="https://www.linkedin.com/in/calebkang" class="text-info"><i class="fab fa-linkedin-in ml-1"></i></a>
-        <a href="mailto:bhk811@gmail.com" class="text-danger"><i class="far fa-envelope-open ml-1"></i></a>
+    <footer class="text-center mt-auto py-3 bg-dark">
+        <strong class="text-light font-weight-bold" id="name">CALEB KANG</strong>
+        <a href="https://www.github.com/c811k" class="text-light"><i class="fab fa-github ml-2"></i></a>
+        <a href="https://www.linkedin.com/in/calebkang" class="text-light"><i class="fab fa-linkedin-in ml-1"></i></a>
+        <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope-open ml-1"></i></a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
