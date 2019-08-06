@@ -91,14 +91,21 @@ img {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 600px;
+        width: 100%;
+        padding: 20px;
     }
     #about, #projects, #contact {
-        padding: 100px 0 130px 0;
         font-size: 12px;
         padding: 7.5em 0;
         height: 100vh;
     }
+
+    .name {
+        font-size: 60px;
+    }
     
+    .blockquote {
+        font-size: 15px;
+    }
 }
 
