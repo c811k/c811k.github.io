@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -96,8 +98,11 @@ img {
     }
     #about, #projects, #contact {
         font-size: 12px;
-        padding: 7.5em 0;
-        height: 100vh;
+        padding: 7.5em 1.5em;
+    }
+
+    .card {
+        margin-bottom: 20px;
     }
 
     .name {
