@@ -11,6 +11,10 @@ body {
     font-size: 100px;
 }
 
+.navicon {
+    font-size: 20px;
+}
+
 #start {
     font-size: 30px;
 }
