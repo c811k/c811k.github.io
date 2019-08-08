@@ -13,6 +13,25 @@ body {
     font-size: 100px;
 }
 
+h1 {
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-family: 'Righteous', cursive;
+}
+
+#about {
+    background-color: #0E4E58;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+#portfolio {
+    background-color: #0E4E58;
+    /* background-color: #DA9627; */
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
 .navicon {
     font-size: 20px;
 }
@@ -26,20 +45,32 @@ body {
 }
 
 #linkedin, #github, #email {
-    font-size: 30px;
+    font-size: 25px;
+    
 }
 
-#linkedin, #github, #email:hover {
-    background-color: #37474f;
+#linkedin:hover, #github:hover, #email:hover {
+    /* color: #23c7ac; */
+    color: #949f99;
 }
 
-#about {
-    padding: 8em 0;
+#pic {
+    margin-top: -100px;
+}
+
+#navicon:hover {
+    /* color: #23c7ac; */
+    /* color: #fbf3f2; */
+    color: #032539;
+}
+
+#home, #about {
+    padding: 4em 0;
     height: 100vh;
 }
 
-#projects {
-    padding: 8em 0;
+#portfolio {
+    padding: 4em 0;
 }
 
 .close:focus {
@@ -96,7 +127,7 @@ img {
         width: 100%;
         padding: 20px;
     }
-    #about, #projects, #contact {
+    #about, #portfolio, #contact {
         font-size: 12px;
         padding: 7.5em 1.5em;
     }
@@ -120,5 +151,25 @@ img {
     #second {
         margin-top: -25px;
     }
+
+    #pic {
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
 }
 
+ul li a:hover {
+    color: #032539 !important;
+}
+
+.bg-dark {
+    background-color: #032539 !important;
+
+}
+
+.text-white {
+    color: #fbf3f2 !important;
+}
