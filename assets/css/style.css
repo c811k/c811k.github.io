@@ -26,8 +26,8 @@ h1 {
 }
 
 #portfolio {
-    background-color: #0E4E58;
-    /* background-color: #DA9627; */
+    /* background-color: #0E4E58; */
+    background-color: #DA9627;
     padding-right: 30px !important;
     padding-left: 30px !important;
 }
@@ -56,6 +56,10 @@ h1 {
 
 #pic {
     margin-top: -100px;
+}
+
+#hobby {
+    margin-top: 100px;
 }
 
 #navicon:hover {
@@ -165,11 +169,10 @@ ul li a:hover {
     color: #032539 !important;
 }
 
-.bg-dark {
+.bg-card {
     background-color: #032539 !important;
-
 }
 
-.text-white {
-    color: #fbf3f2 !important;
+#navbar {
+    transition: top 0.3s;
 }
