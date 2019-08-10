@@ -176,3 +176,7 @@ ul li a:hover {
 #navbar {
     transition: top 0.3s;
 }
+
+#daegu:hover {
+    color: black;
+}
