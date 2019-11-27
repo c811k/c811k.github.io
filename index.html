@@ -5,83 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Amatic+SC|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Caleb Kang</title>
 </head>
 <body>
-    <div class="container" id="home">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div>
-                    <div class="name">CALEB KANG</div>
-                    <p class="center mt-5">
-                        <a href="https://www.github.com/c811k" target="_blank" class="text-light"><i class="fab fa-github mr-3 border border-0 rounded-circle p-2 shadow-sm bg-dark" id="github"></i></a>
-                        <a href="https://www.linkedin.com/in/calebkang" target="_blank" class="text-light"><i class="fab fa-linkedin-in mr-3 border border-0 rounded-circle p-2 shadow-sm bg-dark" id="linkedin"></i></a>
-                        <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope-open border border-0 rounded-circle p-2 shadow-sm bg-dark" id="email"></i></a>
-                    </p>
-                </div>
-                <blockquote class="blockquote mt-5">
-                    I'm a Full-Stack Developer with a passion for integrating technologies to solve problems and optimizing existing solutions. Enjoys exploring new ideas to allow for innovative end-user experiences. Always striving for improvement and works well both collaboratively and independently.
-                </blockquote>
-            </div>
-        </div>
-        <div class="row pt-5 text-center">
-            <div class="col-md-12 mt-2">
-                <a href="#about" class="btn btn-light bg-white border-0 bounce" id="click"><i class="fas fa-chevron-down fa-2x"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <nav class="nav navbar-expand-lg navbar-dark bg-transparent sticky-top p-3" id="navbar">
+    <nav class="nav navbar-expand-lg bg-white sticky-top p-3" id="navbar">
         <div class="navbar-header">
-            <a class="navbar-brand text-white font-weight-bold" href="#home" id="name">CALEB KANG</a>
-            <a href="https://www.github.com/c811k" target="_blank" class="text-light navicon"><i class="fab fa-github navicon" id="navicon"></i></a>
-            <a href="https://www.linkedin.com/in/calebkang" target="_blank" class="text-light"><i class="fab fa-linkedin-in ml-2 navicon" id="navicon"></i></a>
-            <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope-open ml-2 navicon" id="navicon"></i></a>
+            <a class="navbar-brand text-dark font-weight-bold" href="#home" id="name">CALEB KANG</a>
         </div>
-        <button class="navbar-toggler border-0 ml-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 ml-auto text-dark" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">HOME</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-dark" href="#home">HOME</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-dark" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-dark" href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="mailto:bhk811@gmail.com">CONTACT</a>
+                    <a class="nav-link text-dark" href="mailto:bhk811@gmail.com">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid rounded-circle border" height="200" width="200" src="assets/images/IMG_0229.jpg" />
+                <div class="name mt-2">CALEB KANG</div>
+                <blockquote class="blockquote mt-5">
+                    I'm a Full-Stack Developer with a passion for integrating technologies to solve problems and optimizing existing solutions. <br>Enjoys exploring new ideas to allow for innovative end-user experiences. <br>Always striving for improvement and works well both collaboratively and independently.
+                </blockquote>
+
+                <div class="center mt-5">
+                    <a href="https://www.github.com/c811k" target="_blank" class="text-light"><i class="fab fa-github rounded-circle p-2 shadow bg-dark" id="github"></i></a>
+                    <a href="https://www.linkedin.com/in/calebkang" target="_blank" class="text-light"><i class="fab fa-linkedin-in rounded-circle p-2 shadow bg-dark mx-3" id="linkedin"></i></a>
+                    <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope rounded-circle p-2 shadow bg-dark" id="email"></i></a>
+                </div>
+                <a href="#about" class="btn btn-light bg-white border-0 bounce" id="click"><i class="fas fa-chevron-down fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid" id="about">
         <div class="row mb-5">
-            <div class="col-md-12 text-center">
-                <h1 class="text-white">ABOUT ME</h1>
+            <div class="col-md-12">
+                <h3 class="text-white text-left">ABOUT ME</h3>
                 <hr class="bg-white">
+                <h5 class="text-white text-right">01</h5>
             </div>
         </div>
         <div class="row">
+            
+        </div>
+        <div class="row">
             <div class="col-md-3">
-                <img height="400" src="assets/images/Daegu.png" id="daegu"/>
+                <img class="img-fluid aboutme" src="assets/images/Daegu.png" id="daegu"/>
             </div>
             <div class="col-md-7">
-                <img height="400" src="assets/images/us.png" />
+                <img class="img-fluid aboutme" src="assets/images/us.png" />
             </div>
             <div class="col-md-1 mt-5 ml-5 text-center" id="hobby">
-                <img class="mb-3" height="65" src="assets/images/Untitled_Artwork 2.png">
-                <img class="mb-3" height="65" src="assets/images/e.png">
-                <img class="mb-3" height="65" src="assets/images/Untitled_Artwork 3.png">
-                <img class="mb-3" height="65" src="assets/images/Untitled_Artwork 4.png">
+                <img class="mb-3 img-fluid aboutme" src="assets/images/Untitled_Artwork 2.png">
+                <img class="mb-3 img-fluid aboutme" src="assets/images/e.png">
+                <img class="mb-3 img-fluid aboutme" src="assets/images/Untitled_Artwork 3.png">
+                <img class="mb-3 img-fluid aboutme" src="assets/images/Untitled_Artwork 4.png">
             </div>
         </div>
 
@@ -89,13 +86,65 @@
 
     <div class="container-fluid" id="portfolio">
         <div class="row mb-3">
-            <div class="col-md-12 text-center">
-                <h1 class="text-white">PORTFOLIO</h1>
+            <div class="col-md-12">
+                <h3 class="text-white text-left">PORTFOLIO</h3>
                 <hr class="bg-white">
+                <h5 class="text-white text-right">02</h5>
             </div>
         </div>
-
-        <div class="row mb-4">
+        <div class="row">
+            <div class="col padding-left">
+                <a class="image text-dark" href="https://www.nlvcbridge.com" target="_blank">
+                    <img class="img-fluid" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/58461097_10156444946282106_7742687498987372544_o.jpg?_nc_cat=104&_nc_ohc=lxQ6Sw_AmC4AQmWOKqX1qjvBDRLDeHqsvUTvdZ06ZTXwSTqL--xeofV6Q&_nc_ht=scontent-lax3-1.xx&oh=2fce7838b945429f331088dc3574ba32&oe=5E88A28B">
+                    <div class="middle">
+                        <h4 class="text-white">THE BRIDGE</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md padding-middle">
+                <a class= "image" href="https://basketball.nlvcbridge.com" target="_blank">
+                    <img class="img-fluid" src="./assets/images/bridgebasketball.jpg">
+                    <div class="middle text-white">
+                        <h4>BRIDGE BASKETBALL</h4>
+                    </div>
+                </a>       
+            </div>
+            <div class="col padding-right">
+                <a class="image text-dark" href="http://coderacer-app.herokuapp.com/" target="_blank">
+                    <img class="img-fluid" src="./assets/images/code-racer.jpeg" />
+                    <div class="middle text-white">
+                        <h4>CODE RACER</h4>
+                    </div>    
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col padding-left">
+                <a class="image text-dark" href="https://munchiesmap.herokuapp.com" target="_blank">
+                    <img class="img-fluid" src="./assets/images/munchies-map.jpeg" />
+                    <div class="middle">
+                        <h4>MUNCHIES MAP</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col padding-middle">
+                <a class="image text-dark" href="https://c811k.github.com/">
+                    <img class="img-fluid" src="./assets/images/eat-fit.jpeg" />
+                    <div class="middle">
+                        <h4>EAT-FIT</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col padding-right">
+                <div class="image">
+                    <img class="img-fluid" src="" />
+                    <div class="middle">
+                        <h5>+</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row mb-4">
             <div class="col-md-4">
                 <div class="card bg-card shadow-sm p-2">
                     <div class="image">
@@ -330,15 +379,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
-    <footer class="text-center mt-auto py-3 bg-card">
-        <strong class="text-light font-weight-bold" id="name">CALEB KANG</strong>
-        <a href="https://www.github.com/c811k" target="_blank"class="text-light"><i class="fab fa-github ml-2"></i></a>
-        <a href="https://www.linkedin.com/in/calebkang" target="_blank" class="text-light"><i class="fab fa-linkedin-in ml-1"></i></a>
-        <a href="mailto:bhk811@gmail.com" class="text-light"><i class="far fa-envelope-open ml-1"></i></a>
+    <footer class="text-center mt-auto py-3">
+        <strong class="text-dark font-weight-bold" id="name">CALEB KANG</strong>
+        <a href="https://www.github.com/c811k" target="_blank"class="text-dark"><i class="fab fa-github ml-2"></i></a>
+        <a href="https://www.linkedin.com/in/calebkang" target="_blank" class="text-dark"><i class="fab fa-linkedin-in ml-1"></i></a>
+        <a href="mailto:bhk811@gmail.com" class="text-dark"><i class="far fa-envelope-open ml-1"></i></a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
