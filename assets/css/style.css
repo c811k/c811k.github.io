@@ -4,33 +4,21 @@ html {
     min-height: 100%;
 }
 
-.padding-middle {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-
-}
-
-.padding-left {
-    padding-right: 0 !important;
-}
-
-.padding-right {
-    padding-left: 0 !important;
-}
-
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Alata', sans-serif;
 
 }
 
-.nav, h3, h4 {
-    font-family: 'Alata', sans-serif;
+h1 {
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar, h3, h4, h5 {
     letter-spacing: 3px;
 }
 
-h4 {
-    color: white;
-}
 a.nav-link:hover {
     color: #0E4E58 !important;
 }
@@ -41,36 +29,44 @@ a.nav-link:hover {
     letter-spacing: 10px;
 }
 
-h1 {
-    font-size: 65px;
-    letter-spacing: 10px;
-    font-family: 'Montserrat', sans-serif;
+.container-fluid .box2 {
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 400px;
+
+}
+
+.image {
+    height: 250px !important;
+    width: 400px !important;
+    overflow: hidden !important;
+}
+
+.image img {
+    transition: transform .5s, filter 0.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.image:hover img {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+#home {
+    padding: 40px 0;
+}
+
+#about, #portfolio {
+    padding: 50px;
 }
 
 #about {
     background-color: #0E4E58;
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-}
-
-.aboutme {
-    opacity: 0.3;
-}
-
-.aboutme:hover {
-    opacity: 1;
-    
 }
 
 #portfolio {
-    /* background-color: #0E4E58; */
     background-color: #DA9627;
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-}
-
-.navicon {
-    font-size: 20px;
 }
 
 #start {
@@ -78,7 +74,8 @@ h1 {
 }
 
 #click {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #click:focus, #click:active {
@@ -90,35 +87,12 @@ h1 {
 }
 
 #linkedin:hover, #github:hover, #email:hover {
-    /* color: #23c7ac; */
     color: #949f99;
     transition: 0.5s ease-in-out;
 }
 
-#pic {
-    margin-top: -100px;
-}
-
-#hobby {
-    margin-top: 100px;
-}
-
 #navicon:hover {
-    /* color: #23c7ac; */
-    /* color: #fbf3f2; */
     color: #032539;
-}
-
-#home {
-    padding: 40px 0;
-}
-
-#portfolio, #about {
-    padding: 40px 0;
-}
-
-.close:focus {
-    outline: none;
 }
 
 img {
@@ -146,12 +120,9 @@ img {
     text-align: center;
 }
 
-.image:hover img {
-    opacity: 0.2;
-}
-
 .image:hover .middle {
     opacity: 1;
+    background: rgba(204, 204, 204, 0.8);
 }
 
 #name {
@@ -160,6 +131,10 @@ img {
 
 .bounce {
     animation: bounce 2s infinite;
+}
+
+.navbar-toggler-icon {
+    color: greenyellow;
 }
 
 @keyframes bounce {
@@ -177,15 +152,15 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: 100%;
-        padding: 20px;
     }
-    #about, #portfolio, #contact {
+    
+    #home, #about, #portfolio {
         font-size: 12px;
-        padding: 7.5em 1.5em;
+        padding: 40px;
     }
 
-    .card {
-        margin-bottom: 20px;
+    #empty {
+        display:none;
     }
 
     .name {
@@ -193,11 +168,11 @@ img {
     }
     
     .blockquote {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .btn {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     #second {
@@ -223,4 +198,56 @@ ul li a:hover {
 
 #daegu:hover {
     color: black;
+}
+
+
+.container-fluid .box {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 250px;
+    width: 400px;
+}
+  
+.container-fluid .box img {
+    height: 100%;
+    transform: scale(2.5);
+}
+  
+.container-fluid .box.snake {
+    position: relative;
+    overflow: hidden;
+}
+  
+.overlay {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+}
+  
+.overlay h5 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+    width: 100%;
+  
+}
+  
+.overlay p {
+    position: absolute;
+    margin: 0;
+    padding: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
 }
