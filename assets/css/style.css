@@ -9,12 +9,6 @@ body {
 
 }
 
-h1 {
-    font-size: 65px;
-    letter-spacing: 10px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .navbar, h3, h4, h5 {
     letter-spacing: 3px;
 }
@@ -26,7 +20,7 @@ a.nav-link:hover {
 .name {
     font-family: 'Alata', sans-serif;
     font-size: 65px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .container-fluid .box2 {
@@ -133,10 +127,6 @@ img {
     animation: bounce 2s infinite;
 }
 
-.navbar-toggler-icon {
-    color: greenyellow;
-}
-
 @keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -186,6 +176,11 @@ img {
     h1 {
         font-size: 50px;
     }
+
+    .container-fluid .box {
+        height: 200px;
+        width: 200px;
+    } 
 }
 
 ul li a:hover {
