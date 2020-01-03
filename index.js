@@ -3,7 +3,7 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    navbar.classList.add("shadow");
+    navbar.classList.add("shadow-sm");
   } else {
     document.getElementById("navbar").style.top = "-100px";
   }
